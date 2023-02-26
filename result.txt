@@ -1,0 +1,55 @@
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   authenticate.php                                                                                                                                              
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  :22    Cannot call method prepare() on mysqli|false.                                                                                                                 
+  :103   File ends with a trailing whitespace. This may cause problems when running the code in the web browser. Remove the closing ?> mark or remove the whitespace.  
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------- 
+  Line   csv-handler.php                                                                                      
+ ------ ----------------------------------------------------------------------------------------------------- 
+  :28    Parameter #1 $result of function mysqli_num_fields expects mysqli_result, bool|mysqli_result given.  
+  :40    Cannot call method fetch_array() on mysqli_result|true.                                              
+  :46    Function mysqli_field_name() has no return type specified.                                           
+  :46    Function mysqli_field_name() has parameter $field_offset with no type specified.                     
+  :46    Function mysqli_field_name() has parameter $result with no type specified.                           
+  :49    Access to an undefined property object::$name.                                                       
+ ------ ----------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   disclaimer.php                                                  
+ ------ ---------------------------------------------------------------- 
+  :61    Function template_footer invoked with 1 parameter, 0 required.  
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   functions.php                                                            
+ ------ ------------------------------------------------------------------------- 
+  :10    Function pdo_connect_mysql() has no return type specified.               
+  :24    Function template_header() has no return type specified.                 
+  :24    Function template_header() has parameter $title with no type specified.  
+  :86    Function template_footer() has no return type specified.                 
+ ------ ------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   home.php                                                                                                                                    
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+  :57    Call to function is_object() with '' will always evaluate to false.                                                                         
+         ≡ƒÆí Because the type is coming from a PHPDoc, you can turn off this check by setting treatPhpDocTypesAsCertain: false in your phpstan.neon.  
+  :83    Function template_footer invoked with 1 parameter, 0 required.                                                                              
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   profile.php                                                     
+ ------ ---------------------------------------------------------------- 
+  :13    Cannot call method prepare() on mysqli|false.                   
+  :15    Cannot call method bind_param() on mysqli_stmt|false.           
+  :16    Cannot call method execute() on mysqli_stmt|false.              
+  :17    Cannot call method bind_result() on mysqli_stmt|false.          
+  :18    Cannot call method fetch() on mysqli_stmt|false.                
+  :19    Cannot call method close() on mysqli_stmt|false.                
+  :42    Function template_footer invoked with 1 parameter, 0 required.  
+ ------ ---------------------------------------------------------------- 
+
+ [ERROR] Found 22 errors                                                                                                
+
